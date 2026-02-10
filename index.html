@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BingX - Social Trading Líder | Opera como un Profesional</title>
+    <meta name="description"
+        content="Únete a BingX, la plataforma líder de Social Trading. Copia a los mejores traders o lidera el mercado. Registro rápido y seguro.">
+
+    <!-- Google Fonts: Expletus Sans (Futuristic/Tech) & Inter (Clean UI) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Open Graph / SEO Optimization -->
+    <meta property="og:title" content="BingX - Copia a los Mejores Traders y Gana">
+    <meta property="og:description"
+        content="Únete a la plataforma líder de Social Trading. Registro gratis y bonos de bienvenida.">
+    <meta property="og:image" content="https://bingxdao.com/assets/img/app_interface.png">
+    <meta property="og:url" content="https://bingxdao.com">
+    <meta property="og:type" content="website">
+
+    <!-- Google Tag Manager Placeholder -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-XXXXXX');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="main-header">
+        <nav class="container">
+            <div class="logo">BingX</div>
+            <a href="https://bingxdao.com/invite/GZ1CEV" class="btn btn-primary nav-cta">Registrarse</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- A. Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="vpn-notice">
+                        <span class="badge-active">● En vivo</span> <span id="user-count">5,243</span> traders operando
+                        ahora
+                    </div>
+                    <h1 class="hero-title">Copia a los <span class="highlight">Mejores Traders</span> y Gana en
+                        Automático</h1>
+                    <p class="hero-subtitle">No necesitas ser un experto. Conecta tu cuenta en BingX, elige un trader
+                        rentable y deja que sus operaciones generen beneficios para ti.</p>
+
+                    <div class="trust-badges">
+                        <span>🔒 Fondos 100% Seguros</span>
+                        <span>🏆 Exchange Líder</span>
+                        <span>⚡ Registro en 30s</span>
+                    </div>
+
+                    <div class="hero-visual-mobile">
+                        <!-- Hero Image: F1 Car on Track -->
+                        <img src="assets/img/f1_car.png" alt="Fórmula 1 BingX Ferrari"
+                            class="app-interface-img hero-racing-img" loading="lazy">
+
+                        <!-- Profit Calculator Widget (Mobile) -->
+                        <div class="profit-calculator glass-card">
+                            <div class="calc-header">
+                                <h3>🔥 Calculadora de Ganancias</h3>
+                                <p>Mira lo que podrías ganar copiando</p>
+                            </div>
+                            <div class="calc-body">
+                                <div class="input-group">
+                                    <label>Inversión Inicial</label>
+                                    <div class="range-value">$<span id="investment-val-mobile">1000</span></div>
+                                    <input type="range" class="calc-range" id="investment-range-mobile" min="100"
+                                        max="10000" step="100" value="1000">
+                                </div>
+                                <div class="result-group">
+                                    <div class="roi-label">Ganancia Mensual Est. (20%)</div>
+                                    <div class="roi-value text-neon">+$<span id="roi-val-mobile">200</span></div>
+                                </div>
+                                <div class="result-group">
+                                    <div class="roi-label">Ganancia Anual (Interés Compuesto)</div>
+                                    <div class="roi-value text-accent">+$<span id="roi-annual-mobile">7,916</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="signup-form" action="https://formspree.io/f/mlgwdvrj" method="POST">
+                        <div class="form-group">
+                            <h3 style="color:white; margin-bottom:15px; font-size:1.2rem;">📩 Recibe las Mejores
+                                Estrategias</h3>
+                            <p style="font-size:0.9rem; color:#A0AEC0; margin-bottom:15px;">Únete a la lista VIP y
+                                aprende a copiar a los pro.</p>
+                            <input type="email" name="email" placeholder="Tu mejor correo electrónico" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-glow">🔓 Desbloquear Acceso
+                            VIP</button>
+                        <p class="form-note">Te enviaremos una guía de inicio gratuita.</p>
+                    </form>
+                </div>
+                <div class="hero-visual-desktop">
+                    <!-- Hero Image: F1 Car on Track (Desktop) -->
+                    <div class="hero-racing-container">
+                        <img src="assets/img/f1_car.png" alt="Fórmula 1 BingX Ferrari" class="hero-racing-img"
+                            loading="lazy">
+                        <div class="glow-effect"></div>
+                    </div>
+
+                    <!-- Profit Calculator Widget (Desktop) -->
+                    <div class="profit-calculator glass-card desktop-calc">
+                        <div class="glow-backdrop"></div>
+                        <div class="calc-header">
+                            <h3>🚀 Simula tus Ganancias</h3>
+                            <p>El poder del Interés Compuesto</p>
+                        </div>
+                        <div class="calc-body">
+                            <div class="input-group">
+                                <label>Tu Inversión Inicial</label>
+                                <div class="range-value">$<span id="investment-val">1000</span></div>
+                                <input type="range" class="calc-range" id="investment-range" min="100" max="10000"
+                                    step="100" value="1000">
+                                <div class="range-labels">
+                                    <span>$100</span>
+                                    <span>$10k</span>
+                                </div>
+                            </div>
+
+                            <div class="calc-divider"></div>
+
+                            <div class="results-container">
+                                <div class="result-item">
+                                    <span class="res-label">Ganancia Mensual</span>
+                                    <span class="res-val text-neon">+$<span id="roi-val">200</span></span>
+                                    <span class="res-sub">ROI Promedio: 20%</span>
+                                </div>
+                                <div class="result-item">
+                                    <span class="res-label">En 1 Año podrías tener:</span>
+                                    <span class="res-val text-accent">$<span id="roi-total">8,916</span></span>
+                                    <span class="res-sub">Con Interés Compuesto</span>
+                                </div>
+                            </div>
+
+                            <a href="https://bingxdao.com/invite/GZ1CEV"
+                                class="btn btn-small btn-outline mt-3 copy-btn">Quiero estos resultados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ticker Section -->
+        <div class="ticker-wrap">
+            <div class="ticker">
+                <div class="ticker__item">🚀 Bitcoin: $65,432 (+2.4%)</div>
+                <div class="ticker__item">💎 Ethereum: $3,450 (+1.8%)</div>
+                <div class="ticker__item">🔥 Solana: $145 (+5.2%)</div>
+                <div class="ticker__item">📈 Pepe: $0.000008 (+12%)</div>
+                <div class="ticker__item">🚀 Bitcoin: $65,432 (+2.4%)</div> <!-- Duplicate for seamless loop -->
+            </div>
+        </div>
+
+        <!-- Social Proof / Testimonials -->
+        <section class="social-proof-section">
+            <div class="container text-center">
+                <p class="trusted-by">Más de 5 Millones de usuarios confían en BingX</p>
+                <div class="logos-grid">
+                    <div class="partner-logo">Forbes</div>
+                    <div class="partner-logo">Bloomberg</div>
+                    <div class="partner-logo">CoinTelegraph</div>
+                    <div class="partner-logo">TradingView</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Traders Spotlight (NEW) -->
+        <section class="traders-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Copia a los <span class="highlight">Mejores Traders</span></h2>
+                    <p class="section-subtitle">Estos expertos están batiendo al mercado hoy. ¿Te lo vas a perder?</p>
+                </div>
+
+                <div class="traders-grid">
+                    <!-- Trader 1 -->
+                    <div class="trader-card glass-card">
+                        <div class="trader-header">
+                            <div class="trader-avatar"
+                                style="background-image: url('https://api.dicebear.com/9.x/avataaars/svg?seed=CryptoKing');">
+                            </div>
+                            <div class="trader-info">
+                                <h3>CryptoKing 👑</h3>
+                                <span class="badge-pro">PRO TRADER</span>
+                            </div>
+                        </div>
+                        <div class="trader-stats">
+                            <div class="stat-row">
+                                <span class="stat-label">ROI (30d)</span>
+                                <span class="stat-val text-neon">+452.8%</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Win Rate</span>
+                                <span class="stat-val text-accent">92%</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Copiadores</span>
+                                <span class="stat-val">3,421</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline btn-full mt-3 copy-btn">Copiar a CryptoKing</button>
+                    </div>
+
+                    <!-- Trader 2 -->
+                    <div class="trader-card glass-card featured-trader">
+                        <div class="best-badge">🔥 Top Pick</div>
+                        <div class="trader-header">
+                            <div class="trader-avatar"
+                                style="background-image: url('https://api.dicebear.com/9.x/avataaars/svg?seed=SarahScale');">
+                            </div>
+                            <div class="trader-info">
+                                <h3>SarahScale ⚖️</h3>
+                                <span class="badge-pro">VERIFIED</span>
+                            </div>
+                        </div>
+                        <div class="trader-stats">
+                            <div class="stat-row">
+                                <span class="stat-label">ROI (30d)</span>
+                                <span class="stat-val text-neon">+890.4%</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Win Rate</span>
+                                <span class="stat-val text-accent">96%</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Copiadores</span>
+                                <span class="stat-val">8,105</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-full mt-3 copy-btn btn-glow">Copiar a SarahScale</button>
+                    </div>
+
+                    <!-- Trader 3 -->
+                    <div class="trader-card glass-card">
+                        <div class="trader-header">
+                            <div class="trader-avatar"
+                                style="background-image: url('https://api.dicebear.com/9.x/avataaars/svg?seed=SafeGains');">
+                            </div>
+                            <div class="trader-info">
+                                <h3>SafeGains 🛡️</h3>
+                                <span class="badge-pro">LOW RISK</span>
+                            </div>
+                        </div>
+                        <div class="trader-stats">
+                            <div class="stat-row">
+                                <span class="stat-label">ROI (30d)</span>
+                                <span class="stat-val text-neon">+125.2%</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Win Rate</span>
+                                <span class="stat-val text-accent">99%</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Copiadores</span>
+                                <span class="stat-val">12,504</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline btn-full mt-3 copy-btn">Copiar a SafeGains</button>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <a href="https://bingxdao.com/invite/GZ1CEV" class="link-arrow">Ver Ranking Completo
+                        <span>→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- "Join the Pros" Section (Driver Portrait) -->
+        <section class="pro-driver-section">
+            <div class="container driver-grid">
+                <div class="driver-image-col">
+                    <div class="driver-frame">
+                        <img src="assets/img/ferrari_driver.png" alt="Piloto Profesional BingX" class="driver-img"
+                            loading="lazy">
+                        <div class="driver-badge">
+                            <span class="db-label">OFFICIAL PARTNER</span>
+                            <span class="db-name">Scuderia Ferrari</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="driver-content-col">
+                    <h2 class="section-title">Velocidad y Precisión <span class="highlight">Fórmula 1</span></h2>
+                    <p class="section-subtitle-left">Al igual que en la pista, en el trading cada milisegundo cuenta.
+                        BingX te ofrece la tecnología más rápida para ejecutar tus operaciones.</p>
+                    <ul class="racing-features">
+                        <li>🏁 <strong>Ejecución Instantánea:</strong> Sin deslizamientos (slippage).</li>
+                        <li>🏎️ <strong>Tecnología de Punta:</strong> Servidores de baja latencia.</li>
+                        <li>🏆 <strong>Equipo Ganador:</strong> Únete al partner oficial de campeones.</li>
+                    </ul>
+                    <a href="https://bingxdao.com/invite/GZ1CEV" class="btn btn-primary btn-large btn-glow mt-4">Únete
+                        al Equipo Ganador</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- "Start Engine" / Cockpit Section -->
+        <section class="cockpit-section"
+            style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/cockpit.png');">
+            <div class="container text-center">
+                <h2 class="section-title mb-4">Toma el Control de tu <span class="highlight">Futuro</span></h2>
+                <p class="cockpit-text">Siente la adrenalina de operar con las herramientas de los profesionales.</p>
+                <a href="https://bingxdao.com/invite/GZ1CEV" class="btn btn-primary btn-large btn-glow mt-4">Arrancar
+                    Motores 🚀</a>
+            </div>
+        </section>
+
+        <!-- B. Propuesta de Valor (Enhanced) -->
+        <section class="value-props">
+            <div class="container">
+                <h2 class="section-title text-center">Tu dinero trabaja <span class="highlight">por ti</span></h2>
+                <div class="props-grid">
+                    <div class="prop-card glass-card">
+                        <div class="icon-box">🧠</div>
+                        <h3>Smart Copy Trading</h3>
+                        <p>Elige traders verificados con historial real. Copia sus movimientos automáticamente.</p>
+                    </div>
+                    <div class="prop-card glass-card">
+                        <div class="icon-box">🛡️</div>
+                        <h3>Seguridad Bancaria</h3>
+                        <p>Tus activos están asegurados. BingX publica Pruebas de Reservas (PoR) mensualmente.</p>
+                    </div>
+                    <div class="prop-card glass-card">
+                        <div class="icon-box">💸</div>
+                        <h3>Comisiones Bajas</h3>
+                        <p>Opera con las tarifas más competitivas del mercado. Más ganancias para ti.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- C. Tutorial Rápido -->
+        <section class="tutorial-section">
+            <div class="container">
+                <h2 class="section-title text-center">Empieza a ganar en minutos</h2>
+                <div class="steps-container">
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <h3>Crea tu Cuenta</h3>
+                        <p>Solo necesitas un correo. Sin papeleos iniciales.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <h3>Deposita Fondos</h3>
+                        <p>Usa tarjeta, P2P o transfiere cripto desde otra wallet.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <h3>Activa el Copy</h3>
+                        <p>Selecciona un trader top y pulsa "Copiar". ¡Listo!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title text-center">Preguntas Frecuentes</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <button class="faq-question">¿Necesito experiencia para empezar? <span
+                                class="arrow">▼</span></button>
+                        <div class="faq-answer">
+                            <p>No. El Copy Trading está diseñado precisamente para principiantes. Tú copias a expertos
+                                que ya saben operar.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Es seguro mi dinero en BingX? <span
+                                class="arrow">▼</span></button>
+                        <div class="faq-answer">
+                            <p>Sí. BingX es un exchange regulado y cuenta con un fondo de protección para usuarios,
+                                además de auditorías constantes.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Puedo retirar mi dinero cuando quiera? <span
+                                class="arrow">▼</span></button>
+                        <div class="faq-answer">
+                            <p>Absolutamente. Tus fondos no están bloqueados. Puedes retirar tus ganancias o tu capital
+                                en cualquier momento.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <a href="https://bingxdao.com/invite/GZ1CEV" class="btn btn-primary btn-large btn-glow">Crear Cuenta
+                        Gratuita Ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sticky Mobile Footer -->
+    <div class="sticky-footer-mobile">
+        <a href="https://bingxdao.com/invite/GZ1CEV" class="btn btn-primary btn-full">🚀 Empezar a Copiar Traders</a>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Política de Privacidad</a>
+                <a href="#">Términos de Uso</a>
+            </div>
+            <div class="disclaimer">
+                <p><strong>Disclaimer Financiero:</strong> El trading de criptomonedas y derivados conlleva riesgos
+                    significativos. Opera con responsabilidad y solo con capital que puedas permitirte perder. BingX no
+                    ofrece asesoramiento financiero.</p>
+            </div>
+            <p class="copyright">&copy; 2026 BingX Partner. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
